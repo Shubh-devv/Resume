@@ -1,0 +1,135 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 0.8rem;
+    color: #888;
+}
+hr{
+    border: 0.5px solid #eee;
+}
+h2{
+    font-weight: normal;
+    color: #888;
+
+}
+h3{
+    font-weight: normal;
+    font-weight: 0.9rem;
+    color: #888;
+    margin-block: 10px;
+}
+.badge{
+    background-color: teal;
+    padding: 2px 4px;
+    color: white;
+    font-size: 0.7rem;
+    border-radius: 4px;
+}
+.container{
+    width: 70%;
+    display: flex;  
+    margin-inline: auto;
+    gap: 20px;
+    margin-block: 20px;
+}
+.left-coloum{
+    width: 35%;
+}
+.username
+{
+    color: #212121;
+}
+.right-coloum{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.image-box{
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.image-box .username{
+    /* width: 100px; */
+    color: rgb(245, 245, 245);
+    position: absolute;
+    bottom: 3px;
+    left: 10px;
+}
+.image-box img{
+    width: 200px;
+}
+.date{
+    color: teal;
+}
+* ul{
+    list-style: none;
+    margin-block: 20px;
+}
+ul>li{
+    margin-top: 8px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon i{
+    color: teal;
+}
+.progress-bar{
+    background-color: rgb(192, 192, 186);
+    border-radius: 20px;
+    margin-block: 8px;
+}
+
+.progress-bar .progress{
+    background-color:  teal;
+    color: seashell;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.5rem;
+    padding-block: 2px;
+    
+
+}
+.language{
+    margin-block: 10px;
+}
+.subtext{
+    color: #212121;
+}
+
+
+.language .lan{
+    margin: 1px;
+}
+
+.language .icon{
+    margin: 4px;
+}
+
+.card{
+    background-color: seashell;
+    box-shadow: 4px 4px 4px 4px rgb(163, 162, 162);
+   
+}
+.left-des, .card-container{
+
+    margin: 20px;
+
+}
+
+.icon  {
+    color: teal;
+}
